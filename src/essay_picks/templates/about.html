@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-heading"><p class="kicker mono">METHOD / BOUNDARIES / DESIGN</p><h1>About this notebook</h1><p>The scheduled ChatGPT task chooses the reading. This publisher only validates, archives, and delivers those choices.</p></header>
+<div class="method-grid">
+  <section><p class="section-label mono">01 / SOURCE</p><h2>One source of selection</h2><p>The fenced RSS block in the scheduled response is authoritative. The publisher does not search, rank, fetch, replace, or re-curate articles.</p></section>
+  <section><p class="section-label mono">02 / SAFETY</p><h2>Imported text stays data</h2><p>Conversation content cannot issue commands, alter configuration, trigger network requests, or control publishing. Ambiguous or malformed inputs fail closed.</p></section>
+  <section><p class="section-label mono">03 / HISTORY</p><h2>Runs are immutable</h2><p>Each accepted five-item run is stored once. Public RSS and HTML are deterministic projections that can be regenerated at any time.</p></section>
+  <section><p class="section-label mono">04 / PRIVACY</p><h2>No surveillance layer</h2><p>No analytics, cookies, remote fonts, remote images, client JavaScript, or article URL checks are used.</p></section>
+</div>
+<section class="design-spec" aria-labelledby="design-heading">
+  <p class="section-label mono">DESIGN SYSTEM SUMMARY</p><h2 id="design-heading">Research notebook</h2>
+  <dl><div><dt>Mood</dt><dd>Analytical, composed, archival</dd></div><div><dt>Type</dt><dd>IBM Plex Sans for reading; IBM Plex Mono for evidence and metadata</dd></div><div><dt>Color</dt><dd>Cool paper, ink, slate rules, and one cobalt signal</dd></div><div><dt>Density</dt><dd>Compact metadata with generous editorial line-height on an 8px rhythm</dd></div><div><dt>Surface</dt><dd>Two-pixel corners, rules instead of shadows, no decorative imagery</dd></div><div><dt>Motion</dt><dd>Quiet state transitions only, removed when reduced motion is requested</dd></div></dl>
+</section>
+{% endblock %}
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; font-src 'self'; img-src 'none'; script-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="{{ config.channel.description }}">
+    <title>{{ page_title }}</title>
+    <link rel="alternate" type="application/rss+xml" title="{{ config.channel.title }}" href="{{ config.channel.feed_url }}">
+    <link rel="stylesheet" href="{{ asset_prefix }}assets/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="wordmark" href="{{ root_prefix }}index.html" aria-label="{{ config.channel.title }} home"{% if page_name == 'home' %} aria-current="page"{% endif %}>
+          <span class="wordmark__index">MP</span><span>{{ config.channel.title }}</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ root_prefix }}archive/"{% if page_name == 'archive' %} aria-current="page"{% endif %}>Archive</a>
+          <a href="{{ root_prefix }}about/"{% if page_name == 'about' %} aria-current="page"{% endif %}>Method</a>
+          <a class="site-nav__rss" href="{{ root_prefix }}feed.xml">RSS</a>
+        </nav>
+      </div>
+    </header>
+    <main id="content" class="page-shell" tabindex="-1">{% block content %}{% endblock %}</main>
+    <footer class="site-footer">
+      <p>Selected in ChatGPT. Imported deterministically. No article search or tracking.</p>
+      {% if last_updated %}<p class="mono">Last selection <time datetime="{{ last_updated.isoformat() }}">{{ last_updated.strftime('%Y-%m-%d %H:%M UTC') }}</time></p>{% endif %}
+    </footer>
+  </body>
+</html>

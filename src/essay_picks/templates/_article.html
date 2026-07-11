@@ -1,0 +1,31 @@
+{% macro article_entry(item, run, duplicate=false) -%}
+<article class="article-entry" aria-labelledby="article-{{ run.batch_id }}-{{ item.source_order }}">
+  <div class="article-entry__meta">
+    <span class="rank mono"><span class="sr-only">Selection rank </span>{{ '%02d'|format(item.source_order) }}</span>
+    <dl>
+      <div><dt>Published</dt><dd><time datetime="{{ item.published_at.isoformat() }}">{{ item.published_at.strftime('%b %d, %Y') }}</time></dd></div>
+      {% if item.editorial.publication %}<div><dt>Source</dt><dd>{{ item.editorial.publication }}</dd></div>{% endif %}
+      {% if item.editorial.access_status %}<div><dt>Access</dt><dd>{{ item.editorial.access_status }}</dd></div>{% endif %}
+    </dl>
+  </div>
+  <div class="article-entry__body">
+    <ul class="eyebrow mono" aria-label="Topics">{% for category in item.categories %}<li>{{ category }}</li>{% endfor %}</ul>
+    <h3 id="article-{{ run.batch_id }}-{{ item.source_order }}"><a href="{{ item.original_url }}" rel="noopener noreferrer">{{ item.title }}</a></h3>
+    {% if item.editorial.author %}<p class="byline">By {{ item.editorial.author }}</p>{% endif %}
+    <p class="dek">{{ item.description }}</p>
+    <dl class="editorial-notes">
+      {% if item.editorial.core_idea %}<div><dt>Core idea</dt><dd>{{ item.editorial.core_idea|safe_markdown }}</dd></div>{% endif %}
+      {% if item.editorial.why_it_stands_out %}<div><dt>Why it stands out</dt><dd>{{ item.editorial.why_it_stands_out|safe_markdown }}</dd></div>{% endif %}
+      {% if item.editorial.who_should_read %}<div><dt>Who should read it</dt><dd>{{ item.editorial.who_should_read|safe_markdown }}</dd></div>{% endif %}
+    </dl>
+    {% if duplicate %}<p class="delivery-note"><span aria-hidden="true">↺</span> Archived in this run; previously delivered through RSS.</p>{% endif %}
+    <details class="provenance">
+      <summary aria-label="Record provenance for {{ item.title }}"><span class="disclosure-marker" aria-hidden="true">▸</span>Record provenance</summary>
+      <dl>
+        <div><dt>Canonical URL</dt><dd class="mono breakable">{{ item.canonical_url }}</dd></div>
+        <div><dt>Run</dt><dd class="mono">{{ run.batch_id[:16] }}</dd></div>
+      </dl>
+    </details>
+  </div>
+</article>
+{%- endmacro %}

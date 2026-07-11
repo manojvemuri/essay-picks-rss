@@ -1,0 +1,31 @@
+channel:
+  title: "Manoj's Daily Essay Picks"
+  description: >-
+    Five serious articles and essays selected daily across science, ideas,
+    culture, personal growth, politics, business, strategy, and technology.
+  site_url: "https://manojvemuri.github.io/essay-picks-rss/"
+  feed_url: "https://manojvemuri.github.io/essay-picks-rss/feed.xml"
+  language: "en-us"
+
+source:
+  conversation_id: "6a4b19df-f410-83ea-a29d-49673df84cb6"
+  task_marker: "Daily Essay Picks"
+  timezone: "America/Chicago"
+  chrome_enabled: false
+
+limits:
+  expected_items: 5
+  feed_items: 60
+  max_source_bytes: 524288
+  max_xml_bytes: 131072
+  max_field_characters: 10000
+
+paths:
+  runs: "data/runs"
+  public: "public"
+  status: ".state/status.json"
+  lock: ".state/ingest.lock"
+
+publishing:
+  repository_url: "https://github.com/manojvemuri/essay-picks-rss.git"
+  branch: "main"

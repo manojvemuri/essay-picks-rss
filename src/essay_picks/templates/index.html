@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "_article.html" import article_entry %}
+{% block content %}
+<header class="hero">
+  <div><p class="kicker mono">DAILY / FIVE / SERIOUS READING</p><h1 id="page-heading">A research notebook for what is worth reading.</h1></div>
+  <div class="hero__status"><span class="status-light" aria-hidden="true"></span><span>{{ feed_count }} articles in the live feed</span></div>
+</header>
+{% if latest_run %}
+<section class="run" aria-labelledby="latest-run">
+  <header class="run-header">
+    <div><p class="section-label mono">LATEST SELECTION</p><h2 id="latest-run"><span class="sr-only">Latest selection — </span><time datetime="{{ latest_run.source_selected_at.isoformat() }}">{{ latest_run.source_selected_at.strftime('%B %d, %Y') }}</time></h2></div>
+    <dl class="run-facts mono">
+      <div><dt>Items</dt><dd>{{ latest_run.items|length }}</dd></div><div><dt>Batch</dt><dd>{{ latest_run.batch_id[:10] }}</dd></div><div><dt>Source</dt><dd>{{ latest_run.source_kind.value }}</dd></div>
+    </dl>
+  </header>
+  {% if latest_run.reading_order %}<aside class="reading-order" aria-labelledby="reading-order-heading"><h3 id="reading-order-heading" class="reading-order__label mono">READING ORDER</h3><div>{{ latest_run.reading_order|safe_markdown }}</div></aside>{% endif %}
+  <div class="article-list">{% for item in latest_run.items %}{{ article_entry(item, latest_run, delivery_flags.get(latest_run.batch_id ~ '|' ~ item.canonical_url, false)) }}{% endfor %}</div>
+</section>
+{% if runs|length > 1 %}
+<section class="recent-runs" aria-labelledby="recent-heading">
+  <div class="section-heading-row"><h2 id="recent-heading">Recent field notes</h2><a class="target-link" href="archive/">View the full archive →</a></div>
+  <ol class="run-index">{% for run in runs[1:5] %}<li><span class="mono">{{ run.source_selected_at.strftime('%Y.%m.%d') }}</span><span>{{ run.items|length }} selections</span><span class="mono">{{ run.batch_id[:8] }}</span></li>{% endfor %}</ol>
+</section>
+{% endif %}
+{% else %}
+<section class="empty-state"><p class="section-label mono">AWAITING FIRST IMPORT</p><h2>The notebook is ready.</h2><p>Import the latest scheduled ChatGPT response to publish the first five selections.</p><code>python -m essay_picks ingest --file &lt;export.md&gt;</code></section>
+{% endif %}
+{% endblock %}

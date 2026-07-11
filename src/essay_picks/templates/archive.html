@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% from "_article.html" import article_entry %}
+{% block content %}
+<header class="page-heading"><p class="kicker mono">IMMUTABLE RUN LOG</p><h1>Archive</h1><p>Every five-item source run is preserved. Repeat selections remain visible here even when RSS delivery is suppressed.</p></header>
+{% if runs %}{% for run in runs %}
+<section class="run run--archive" aria-labelledby="run-{{ run.batch_id[:8] }}">
+  <header class="run-header"><div><p class="section-label mono">SELECTION RUN {{ '%02d'|format(loop.revindex) }}</p><h2 id="run-{{ run.batch_id[:8] }}"><span class="sr-only">Selection run {{ '%02d'|format(loop.revindex) }} — </span><time datetime="{{ run.source_selected_at.isoformat() }}">{{ run.source_selected_at.strftime('%B %d, %Y') }}</time></h2></div><dl class="run-facts mono"><div><dt>Batch</dt><dd>{{ run.batch_id[:10] }}</dd></div><div><dt>Input</dt><dd>{{ run.source_kind.value }}</dd></div></dl></header>
+  <div class="article-list">{% for item in run.items %}{{ article_entry(item, run, delivery_flags.get(run.batch_id ~ '|' ~ item.canonical_url, false)) }}{% endfor %}</div>
+</section>
+{% endfor %}{% else %}<p>No selection runs have been imported.</p>{% endif %}
+{% endblock %}

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Manoj's Daily Essay Picks</title>
+    <link>https://manojvemuri.github.io/essay-picks-rss/</link>
+    <description>Five serious articles and essays selected daily across science, ideas, culture, personal growth, politics, business, strategy, and technology.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2026 14:44:56 GMT</lastBuildDate>
+    <item>
+      <title>How the World Celebrated America's 200th Birthday</title>
+      <link>https://newlinesmag.com/essays/how-the-world-celebrated-americas-200th-birthday/</link>
+      <guid isPermaLink="true">https://newlinesmag.com/essays/how-the-world-celebrated-americas-200th-birthday/</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>America's 1976 bicentennial was not merely a domestic celebration but a global soft-power project shaped by foreign participation.</description>
+      <category>Politics</category>
+      <category>History</category>
+      <category>Culture</category>
+      <category>Soft Power</category>
+    </item>
+    <item>
+      <title>Who Do You Think You Are? There Are Two Answers</title>
+      <link>https://psyche.co/ideas/who-do-you-think-you-are-there-are-two-answers</link>
+      <guid isPermaLink="true">https://psyche.co/ideas/who-do-you-think-you-are-there-are-two-answers</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <description>A useful distinction between the identity society recognizes and the deeper identity formed by your values, cares, and self-understanding.</description>
+      <category>Personal Growth</category>
+      <category>Philosophy</category>
+      <category>Identity</category>
+      <category>Psychology</category>
+    </item>
+    <item>
+      <title>China's Web Novel Platforms Embraced AI. Now They Are Fighting It</title>
+      <link>https://restofworld.org/2026/china-ai-web-novels/</link>
+      <guid isPermaLink="true">https://restofworld.org/2026/china-ai-web-novels/</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Chinese fiction platforms encouraged AI-assisted production, then discovered that abundance can destroy quality, trust, and reader value.</description>
+      <category>Technology</category>
+      <category>Business</category>
+      <category>Culture</category>
+      <category>Platforms</category>
+    </item>
+    <item>
+      <title>The Fall and Rise of Screwworm</title>
+      <link>https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm</link>
+      <guid isPermaLink="true">https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>How sterile insects defeated a devastating parasite—and how maintenance failures allowed it to return.</description>
+      <category>Science</category>
+      <category>Biosecurity</category>
+      <category>Institutions</category>
+      <category>Strategy</category>
+    </item>
+    <item>
+      <title>Is Life Just Different?</title>
+      <link>https://www.quantamagazine.org/is-life-just-different-20260708/</link>
+      <guid isPermaLink="true">https://www.quantamagazine.org/is-life-just-different-20260708/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Philip Ball asks whether biological agency can become a rigorous scientific idea without smuggling mysticism or design into biology.</description>
+      <category>Science</category>
+      <category>Biology</category>
+      <category>Philosophy</category>
+      <category>Ideas</category>
+    </item>
+  </channel>
+</rss>

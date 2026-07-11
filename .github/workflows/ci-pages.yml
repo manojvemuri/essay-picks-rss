@@ -1,0 +1,62 @@
+name: Validate and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Install locked dependencies
+        run: uv sync --locked --all-groups
+      - name: Lint and format
+        run: |
+          uv run ruff format --check .
+          uv run ruff check .
+      - name: Strict type check
+        run: uv run mypy src/essay_picks
+      - name: Test with branch coverage
+        run: uv run pytest
+      - name: Audit dependencies
+        run: uv run pip-audit
+      - name: Validate immutable history
+        run: uv run python -m essay_picks validate
+      - name: Verify deterministic projections
+        run: |
+          uv run python -m essay_picks render
+          git diff --exit-code -- public data/runs
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
