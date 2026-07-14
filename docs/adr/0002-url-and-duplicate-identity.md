@@ -1,6 +1,6 @@
 # ADR 0002: Conservative URL and duplicate identity
 
-- Status: Accepted
+- Status: Amended by ADR 0006
 - Date: 2026-07-11
 
 ## Context
@@ -13,7 +13,7 @@ be meaningful. Duplicate suppression must not rewrite historical ChatGPT selecti
 Canonicalize only HTTPS scheme and host casing, fragments, default port, and known tracking
 parameters. Preserve unknown query parameters. Identify a batch from conversation ID, selection
 time, source order, and canonical item fields. Preserve every valid run; suppress previously
-delivered canonical URLs only when generating the newest 60 feed items.
+delivered canonical URLs only when generating the RSS projection.
 
 ## Consequences
 

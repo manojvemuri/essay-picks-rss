@@ -1,6 +1,6 @@
 # ADR 0004: Permanent manual core and feature-gated Chrome beta
 
-- Status: Accepted
+- Status: Superseded by ADR 0007
 - Date: 2026-07-11
 
 ## Context

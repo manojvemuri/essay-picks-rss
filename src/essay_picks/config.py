@@ -24,12 +24,10 @@ class SourceConfig(StrictModel):
     conversation_id: str = Field(pattern=r"^[0-9a-fA-F-]{36}$")
     task_marker: str = Field(min_length=1, max_length=100)
     timezone: str = "America/Chicago"
-    chrome_enabled: bool = False
 
 
 class LimitsConfig(StrictModel):
     expected_items: int = Field(default=5, ge=1, le=20)
-    feed_items: int = Field(default=60, ge=1, le=1000)
     max_source_bytes: int = Field(default=524_288, ge=1024, le=10_485_760)
     max_xml_bytes: int = Field(default=131_072, ge=1024, le=2_097_152)
     max_field_characters: int = Field(default=10_000, ge=100, le=100_000)

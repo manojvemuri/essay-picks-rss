@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "c3b074e373d6a10e86017e3db5a74a181726721958f0a0dd64517371159acf6a",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "export",
+  "source_selected_at": "2026-07-12T14:03:00Z",
+  "ingested_at": "2026-07-14T07:22:29.465227Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://example.com/manoj-daily-essay-picks/</link>\n    <description>Five serious articles and essays selected across science, ideas, culture, politics, business, strategy and technology.</description>\n    <language>en-us</language>\n    <lastBuildDate>Sun, 12 Jul 2026 14:03:00 GMT</lastBuildDate>\n\n    <item>\n      <title>Lore of the Rings</title>\n      <link>https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings</link>\n      <guid isPermaLink=\"true\">https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings</guid>\n      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Valerie Trouet explains how ancient trees preserve precisely dated evidence of climate shifts, cosmic events and turning points in human history.]]></description>\n      <category>Science</category>\n      <category>Climate</category>\n      <category>Archaeology</category>\n      <category>History</category>\n    </item>\n\n    <item>\n      <title>China’s AI Boom Is Creating a Different Kind of Entrepreneur</title>\n      <link>https://restofworld.org/2026/china-ai-worker-innovation/</link>\n      <guid isPermaLink=\"true\">https://restofworld.org/2026/china-ai-worker-innovation/</guid>\n      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[How Chinese workers are using AI, frugal innovation and one-person businesses to navigate weak growth, limited capital and precarious employment.]]></description>\n      <category>Technology</category>\n      <category>Artificial Intelligence</category>\n      <category>Business</category>\n      <category>Labor</category>\n      <category>China</category>\n    </item>\n\n    <item>\n      <title>Seeds of War</title>\n      <link>https://thebaffler.com/latest/seeds-of-war-dhenin</link>\n      <guid isPermaLink=\"true\">https://thebaffler.com/latest/seeds-of-war-dhenin</guid>\n      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[An investigation of how war, foreign aid, import dependence and seed policy have deepened Lebanon’s long-running food crisis.]]></description>\n      <category>Politics</category>\n      <category>Food Security</category>\n      <category>Development</category>\n      <category>Lebanon</category>\n      <category>Agriculture</category>\n    </item>\n\n    <item>\n      <title>The Sumerian Roots of Zaha Hadid’s Architecture</title>\n      <link>https://newlinesmag.com/essays/the-sumerian-roots-of-zaha-hadids-architecture/</link>\n      <guid isPermaLink=\"true\">https://newlinesmag.com/essays/the-sumerian-roots-of-zaha-hadids-architecture/</guid>\n      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Diana Darke traces Zaha Hadid’s celebrated futuristic forms to Iraqi landscapes, ancient Sumeria and the traditions of Islamic architecture.]]></description>\n      <category>Culture</category>\n      <category>Architecture</category>\n      <category>Design</category>\n      <category>History</category>\n      <category>Iraq</category>\n    </item>\n\n    <item>\n      <title>‘It Makes Your Heart Sing’: Can a Pioneering Project Show That Rewilding Really Works?</title>\n      <link>https://www.theguardian.com/news/2026/jul/09/it-makes-your-heart-sing-rewilding-britains-bleak-farmland</link>\n      <guid isPermaLink=\"true\">https://www.theguardian.com/news/2026/jul/09/it-makes-your-heart-sing-rewilding-britains-bleak-farmland</guid>\n      <pubDate>Thu, 09 Jul 2026 04:00:00 GMT</pubDate>\n      <description><![CDATA[A reported examination of whether biodiversity credits, carbon markets and ecotourism can make large-scale ecological restoration financially viable.]]></description>\n      <category>Environment</category>\n      <category>Business</category>\n      <category>Strategy</category>\n      <category>Rewilding</category>\n      <category>Natural Capital</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "**[Daily Essay Picks]**",
+  "raw_sha256": "b46b05491e69ec759ad67561adaf43b0bd4b81575e8d98e03ed06c7b9f69edb0",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "Lore of the Rings",
+      "original_url": "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings",
+      "canonical_url": "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings",
+      "guid": "https://aeon.co/essays/how-to-decode-the-archive-inside-ancient-tree-rings",
+      "published_at": "2026-07-10T00:00:00Z",
+      "description": "Valerie Trouet explains how ancient trees preserve precisely dated evidence of climate shifts, cosmic events and turning points in human history.",
+      "categories": [
+        "Science",
+        "Climate",
+        "Archaeology",
+        "History"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "China’s AI Boom Is Creating a Different Kind of Entrepreneur",
+      "original_url": "https://restofworld.org/2026/china-ai-worker-innovation/",
+      "canonical_url": "https://restofworld.org/2026/china-ai-worker-innovation/",
+      "guid": "https://restofworld.org/2026/china-ai-worker-innovation/",
+      "published_at": "2026-07-07T00:00:00Z",
+      "description": "How Chinese workers are using AI, frugal innovation and one-person businesses to navigate weak growth, limited capital and precarious employment.",
+      "categories": [
+        "Technology",
+        "Artificial Intelligence",
+        "Business",
+        "Labor",
+        "China"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "Seeds of War",
+      "original_url": "https://thebaffler.com/latest/seeds-of-war-dhenin",
+      "canonical_url": "https://thebaffler.com/latest/seeds-of-war-dhenin",
+      "guid": "https://thebaffler.com/latest/seeds-of-war-dhenin",
+      "published_at": "2026-07-08T00:00:00Z",
+      "description": "An investigation of how war, foreign aid, import dependence and seed policy have deepened Lebanon’s long-running food crisis.",
+      "categories": [
+        "Politics",
+        "Food Security",
+        "Development",
+        "Lebanon",
+        "Agriculture"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "The Sumerian Roots of Zaha Hadid’s Architecture",
+      "original_url": "https://newlinesmag.com/essays/the-sumerian-roots-of-zaha-hadids-architecture/",
+      "canonical_url": "https://newlinesmag.com/essays/the-sumerian-roots-of-zaha-hadids-architecture/",
+      "guid": "https://newlinesmag.com/essays/the-sumerian-roots-of-zaha-hadids-architecture/",
+      "published_at": "2026-07-10T00:00:00Z",
+      "description": "Diana Darke traces Zaha Hadid’s celebrated futuristic forms to Iraqi landscapes, ancient Sumeria and the traditions of Islamic architecture.",
+      "categories": [
+        "Culture",
+        "Architecture",
+        "Design",
+        "History",
+        "Iraq"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "‘It Makes Your Heart Sing’: Can a Pioneering Project Show That Rewilding Really Works?",
+      "original_url": "https://www.theguardian.com/news/2026/jul/09/it-makes-your-heart-sing-rewilding-britains-bleak-farmland",
+      "canonical_url": "https://www.theguardian.com/news/2026/jul/09/it-makes-your-heart-sing-rewilding-britains-bleak-farmland",
+      "guid": "https://www.theguardian.com/news/2026/jul/09/it-makes-your-heart-sing-rewilding-britains-bleak-farmland",
+      "published_at": "2026-07-09T04:00:00Z",
+      "description": "A reported examination of whether biodiversity credits, carbon markets and ecotourism can make large-scale ecological restoration financially viable.",
+      "categories": [
+        "Environment",
+        "Business",
+        "Strategy",
+        "Rewilding",
+        "Natural Capital"
+      ],
+      "editorial": {}
+    }
+  ]
+}

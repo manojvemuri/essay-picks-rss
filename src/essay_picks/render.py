@@ -67,7 +67,16 @@ def build_projections(config: AppConfig, runs: list[ValidatedRun]) -> Projection
     """Build every public artifact in memory without mutating the filesystem."""
     ordered_runs = sorted(runs, key=lambda run: (run.source_selected_at, run.batch_id))
     delivered, delivery_flags = _delivery_projection(ordered_runs)
-    newest_delivered = list(reversed(delivered[-config.limits.feed_items :]))
+    # RSS is an append-only delivery projection: retain every unique article while
+    # presenting the newest runs first and preserving rank within each run.
+    deliveries_by_run: dict[str, list[DeliveredItem]] = {}
+    for delivery in delivered:
+        deliveries_by_run.setdefault(delivery.run.batch_id, []).append(delivery)
+    newest_delivered = [
+        delivery
+        for run in reversed(ordered_runs)
+        for delivery in deliveries_by_run.get(run.batch_id, [])
+    ]
     newest_runs = list(reversed(ordered_runs))
     environment = _template_environment()
     common = {

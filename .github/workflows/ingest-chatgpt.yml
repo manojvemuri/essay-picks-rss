@@ -1,0 +1,73 @@
+name: Ingest ChatGPT task output
+
+on:
+  issues:
+    types: [edited]
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: chatgpt-daily-intake
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: >-
+      github.event.issue.number == 6 &&
+      github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v8
+        with:
+          enable-cache: true
+      - name: Install locked dependencies
+        run: uv sync --locked --all-groups
+      - name: Copy issue body as inert input
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require("fs");
+            fs.mkdirSync(".state", {recursive: true});
+            fs.writeFileSync(
+              ".state/chatgpt-task.md",
+              context.payload.issue.body || "",
+              {encoding: "utf8", mode: 0o600},
+            );
+      - name: Import and verify
+        run: |
+          uv run python -m essay_picks ingest --stdin --source-kind github < .state/chatgpt-task.md
+          uv run python -m essay_picks validate
+          uv run ruff format --check .
+          uv run ruff check .
+          uv run mypy src/essay_picks
+          uv run pytest
+      - name: Commit and push managed outputs
+        run: |
+          git config user.name "essay-picks-rss"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/runs public
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: publish daily essay picks"
+          if git push origin HEAD:main; then
+            exit 0
+          fi
+
+          git fetch origin main
+          git reset --hard origin/main
+          uv sync --locked --all-groups
+          uv run python -m essay_picks ingest --stdin --source-kind github < .state/chatgpt-task.md
+          uv run python -m essay_picks validate
+          uv run pytest
+          git add -- data/runs public
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: publish daily essay picks"
+          git push origin HEAD:main

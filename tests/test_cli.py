@@ -50,7 +50,7 @@ def test_cli_stdin_is_idempotent(config_path: Path, corrupt_export: str) -> None
     assert '"code": "NO_CHANGE"' in second.output
 
 
-def test_cli_rejects_ambiguous_and_disabled_chrome_inputs(
+def test_cli_rejects_ambiguous_inputs(
     config_path: Path, corrupt_export: str, tmp_path: Path
 ) -> None:
     source = tmp_path / "export.md"
@@ -59,7 +59,11 @@ def test_cli_rejects_ambiguous_and_disabled_chrome_inputs(
         app,
         ["ingest", "--config", str(config_path), "--file", str(source), "--stdin"],
     )
-    chrome = runner.invoke(
+    assert ambiguous.exit_code != 0
+
+
+def test_cli_accepts_github_transport(config_path: Path, corrupt_export: str) -> None:
+    result = runner.invoke(
         app,
         [
             "ingest",
@@ -67,14 +71,13 @@ def test_cli_rejects_ambiguous_and_disabled_chrome_inputs(
             str(config_path),
             "--stdin",
             "--source-kind",
-            "chrome",
+            "github",
         ],
         input=corrupt_export,
     )
 
-    assert ambiguous.exit_code != 0
-    assert chrome.exit_code == 2
-    assert "CHROME_DISABLED" in chrome.output
+    assert result.exit_code == 0, result.output
+    assert '"code": "SUCCESS"' in result.output
 
 
 def test_status_before_first_import(config_path: Path) -> None:

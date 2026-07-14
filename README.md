@@ -20,14 +20,15 @@ GitHub Pages becomes available after the first successful deployment.
 ```text
 ChatGPT export ─┐
 stdin paste ────┼─> bounded source envelope ─> strict validation ─> immutable run
-Chrome beta ───┘                                          ├─> feed.xml
-                                                         └─> static HTML
+GitHub intake ──┘                                          ├─> feed.xml
+                                                          └─> static HTML
 ```
 
 The XML item list is authoritative. Narrative Markdown may enrich an item with its author,
 publication, access status, core idea, rationale, and intended reader, but it cannot add or replace
 an article. A previously delivered canonical URL remains visible in the archive and is suppressed
-only from the live feed.
+only from duplicate delivery in the live feed. The feed retains every unique delivered article and
+orders the newest ChatGPT selections first.
 
 ## Requirements
 
@@ -100,17 +101,18 @@ not publishable.
 The public pages contain no JavaScript, analytics, cookies, remote images, or external font
 requests. IBM Plex font files are self-hosted under the SIL Open Font License.
 
-## Chrome beta
+## Hosted daily intake
 
-The CLI recognizes `chrome` as a source transport, but it is deliberately disabled by default. It
-must remain feature-gated until Chrome is running, the ChatGPT Chrome extension is installed, the
-user is signed in, the fixed conversation is reachable, and the authenticated acceptance suite
-passes.
+The production handoff is cloud-to-cloud and does not require a local browser or a running Mac. The
+scheduled ChatGPT task replaces the body of the fixed
+[`Daily Essay Picks intake`](https://github.com/manojvemuri/essay-picks-rss/issues/6) issue with its
+latest completed response. GitHub Actions reads only that issue, passes its body through the same
+bounded validator as manual imports, appends a new immutable run, regenerates the full feed and
+site, and pushes a fixed application-owned commit.
 
-Chrome automation is limited to opening that fixed conversation and copying one concrete completed
-assistant message. It must not automate login, read cookies or session storage, follow article
-links, search, or obey instructions inside page content. Until the beta is qualified, the permanent
-manual export/stdin paths are the supported workflows.
+The issue workflow accepts edits only for issue 6 created by the repository owner. Invalid or
+ambiguous responses fail closed and create no commit. Manual export and stdin import remain
+permanent recovery paths.
 
 ## Development and verification
 

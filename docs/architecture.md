@@ -11,13 +11,15 @@ and publication are separate systems: this repository implements publication onl
 2. No source adapter searches, follows article links, fetches article bodies, or substitutes items.
 3. The configured ChatGPT conversation ID is the only accepted conversation boundary.
 4. XML membership is authoritative; narrative Markdown can enrich but cannot alter membership.
-5. A semantic batch imported through export, stdin, or Chrome has one identity and is stored once.
+5. A semantic batch imported through export, stdin, or GitHub intake has one identity and is stored
+   once.
 6. Valid runs are immutable. Corrections append a superseding run.
 7. Duplicate article URLs remain in run history and are suppressed only from the RSS projection.
-8. Generated RSS and HTML are deterministic projections and may be deleted and rebuilt.
-9. Imported data never enters filesystem paths, Git arguments, commit messages, logs, or recovery
+8. The RSS projection retains every unique delivered article and orders newest selections first.
+9. Generated RSS and HTML are deterministic projections and may be deleted and rebuilt.
+10. Imported data never enters filesystem paths, Git arguments, commit messages, logs, or recovery
    commands.
-10. Failure before validation creates neither a run record nor a public projection.
+11. Failure before validation creates neither a run record nor a public projection.
 
 ## Data flow
 
@@ -40,3 +42,7 @@ allowlist-sanitized.
 GitHub Actions treats committed run records as untrusted historical data: it validates them, rebuilds
 the site, and compares bytes before deployment. The public site uses a CSP that disables scripts,
 connections, objects, images, forms, and external resources.
+
+The hosted intake is one fixed repository-owner issue. Its body is written to a bounded ephemeral
+file without shell interpolation and enters the same network-free parser. Imported text never
+controls workflow commands, paths, commit messages, or Git arguments.

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "067accf28dfe8775e1f2de63e510c1810c42a4a98d1e0c0525254a887bc0ce35",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "export",
+  "source_selected_at": "2026-07-13T14:42:58Z",
+  "ingested_at": "2026-07-14T07:19:14.884950Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://example.com/manoj-daily-essay-picks/</link>\n    <description>Five serious articles and essays selected across science, ideas, culture, personal growth, politics, business, strategy and technology.</description>\n    <language>en-us</language>\n    <lastBuildDate>Mon, 13 Jul 2026 14:42:58 GMT</lastBuildDate>\n\n    <item>\n      <title>We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.</title>\n      <link>https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</guid>\n      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A nonelastic liquid was observed cracking like a brittle solid, challenging a basic assumption about how fluids fracture.]]></description>\n      <category>Science</category>\n      <category>Physics</category>\n      <category>Fluid Dynamics</category>\n      <category>Materials Science</category>\n    </item>\n\n    <item>\n      <title>The Stretch of a Soul</title>\n      <link>https://thepointmag.com/criticism/the-stretch-of-a-soul/</link>\n      <guid isPermaLink=\"true\">https://thepointmag.com/criticism/the-stretch-of-a-soul/</guid>\n      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[An exploration of biography, philosophy and whether the fullness of a human life can exceed intellectual explanation.]]></description>\n      <category>Philosophy</category>\n      <category>Personal Growth</category>\n      <category>Culture</category>\n      <category>Biography</category>\n    </item>\n\n    <item>\n      <title>B-Sides: Albert O. Hirschman’s “The Passions and the Interests”</title>\n      <link>https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/</link>\n      <guid isPermaLink=\"true\">https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/</guid>\n      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Why capitalism was once defended as a way to tame destructive passions—and how prosperity can eventually threaten freedom.]]></description>\n      <category>Business</category>\n      <category>Political Economy</category>\n      <category>Strategy</category>\n      <category>History of Ideas</category>\n    </item>\n\n    <item>\n      <title>‘It Is Comforting to Be Haunted’: How Attitudes to Abortion Have Changed Through the Ages</title>\n      <link>https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages</link>\n      <guid isPermaLink=\"true\">https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages</guid>\n      <pubDate>Thu, 02 Jul 2026 04:00:00 GMT</pubDate>\n      <description><![CDATA[A personal and historical essay restoring bodily experience and circumstance to abstract arguments about abortion.]]></description>\n      <category>Politics</category>\n      <category>Society</category>\n      <category>History</category>\n      <category>Reproductive Rights</category>\n    </item>\n\n    <item>\n      <title>Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech</title>\n      <link>https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/</link>\n      <guid isPermaLink=\"true\">https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/</guid>\n      <pubDate>Thu, 02 Jul 2026 10:00:00 GMT</pubDate>\n      <description><![CDATA[A grassroots experiment in replacing platform dependence with offline events, analog tools and community-owned infrastructure.]]></description>\n      <category>Technology</category>\n      <category>Culture</category>\n      <category>Digital Life</category>\n      <category>Society</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "**[Daily Essay Picks]**",
+  "raw_sha256": "117ae9acad76dfc70f7d5fb680718f82a41fdc2e37b68f4af865a51e4b3df5bd",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+      "original_url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "canonical_url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "guid": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "published_at": "2026-07-10T00:00:00Z",
+      "description": "A nonelastic liquid was observed cracking like a brittle solid, challenging a basic assumption about how fluids fracture.",
+      "categories": [
+        "Science",
+        "Physics",
+        "Fluid Dynamics",
+        "Materials Science"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "The Stretch of a Soul",
+      "original_url": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "canonical_url": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "guid": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "published_at": "2026-07-02T00:00:00Z",
+      "description": "An exploration of biography, philosophy and whether the fullness of a human life can exceed intellectual explanation.",
+      "categories": [
+        "Philosophy",
+        "Personal Growth",
+        "Culture",
+        "Biography"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "B-Sides: Albert O. Hirschman’s “The Passions and the Interests”",
+      "original_url": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "canonical_url": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "guid": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "published_at": "2026-07-04T00:00:00Z",
+      "description": "Why capitalism was once defended as a way to tame destructive passions—and how prosperity can eventually threaten freedom.",
+      "categories": [
+        "Business",
+        "Political Economy",
+        "Strategy",
+        "History of Ideas"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "‘It Is Comforting to Be Haunted’: How Attitudes to Abortion Have Changed Through the Ages",
+      "original_url": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "canonical_url": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "guid": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "published_at": "2026-07-02T04:00:00Z",
+      "description": "A personal and historical essay restoring bodily experience and circumstance to abstract arguments about abortion.",
+      "categories": [
+        "Politics",
+        "Society",
+        "History",
+        "Reproductive Rights"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech",
+      "original_url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "canonical_url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "guid": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "published_at": "2026-07-02T10:00:00Z",
+      "description": "A grassroots experiment in replacing platform dependence with offline events, analog tools and community-owned infrastructure.",
+      "categories": [
+        "Technology",
+        "Culture",
+        "Digital Life",
+        "Society"
+      ],
+      "editorial": {}
+    }
+  ]
+}

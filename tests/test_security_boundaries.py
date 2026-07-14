@@ -91,27 +91,16 @@ def test_source_boundaries_reject_size_observed_id_and_export_id(
     assert_invalid(app_config, foreign, "WRONG_CONVERSATION")
 
 
-def test_chrome_requires_message_id_and_missing_rss_is_retryable(app_config) -> None:
-    missing_id = source_envelope(
-        "completed response",
-        app_config.source.conversation_id,
-        kind=SourceKind.CHROME,
-    )
-    with pytest.raises(ValidationFailure) as incomplete:
-        validate_envelope(missing_id, app_config)
-    assert incomplete.value.code == "INCOMPLETE_RESPONSE"
-    assert incomplete.value.retryable is True
-
+def test_github_missing_rss_fails_closed(app_config) -> None:
     no_rss = source_envelope(
         "completed response",
         app_config.source.conversation_id,
-        kind=SourceKind.CHROME,
-        message_id="assistant-message-1",
+        kind=SourceKind.GITHUB,
     )
     with pytest.raises(ValidationFailure) as missing:
         validate_envelope(no_rss, app_config)
     assert missing.value.code == "NO_RSS_BLOCK"
-    assert missing.value.retryable is True
+    assert missing.value.retryable is False
     assert missing.value.recovery_command is not None
 
 

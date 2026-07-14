@@ -92,12 +92,6 @@ def _validate_source_boundary(envelope: SourceEnvelope, config: AppConfig) -> No
         raise ValidationFailure(
             "Export belongs to a different conversation", code="WRONG_CONVERSATION"
         )
-    if envelope.source_kind is SourceKind.CHROME and not envelope.message_id:
-        raise ValidationFailure(
-            "Chrome ingestion requires a concrete assistant message ID",
-            code="INCOMPLETE_RESPONSE",
-            retryable=True,
-        )
 
 
 def _select_candidate(envelope: SourceEnvelope, config: AppConfig) -> RssCandidate:
@@ -139,7 +133,6 @@ def _select_candidate(envelope: SourceEnvelope, config: AppConfig) -> RssCandida
         raise ValidationFailure(
             "No publishable RSS block was found",
             code="NO_RSS_BLOCK",
-            retryable=envelope.source_kind is SourceKind.CHROME,
             recovery_command="python -m essay_picks ingest --file <export.md>",
         )
 

@@ -30,11 +30,9 @@ def app_config(project_root: Path) -> AppConfig:
                 "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
                 "task_marker": "Daily Essay Picks",
                 "timezone": "America/Chicago",
-                "chrome_enabled": False,
             },
             "limits": {
                 "expected_items": 5,
-                "feed_items": 60,
                 "max_source_bytes": 524288,
                 "max_xml_bytes": 131072,
                 "max_field_characters": 10000,

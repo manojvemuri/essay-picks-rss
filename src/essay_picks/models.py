@@ -12,8 +12,8 @@ class FrozenModel(BaseModel):
 
 
 class SourceKind(StrEnum):
-    CHROME = "chrome"
     EXPORT = "export"
+    GITHUB = "github"
     STDIN = "stdin"
 
 

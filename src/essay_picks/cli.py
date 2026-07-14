@@ -40,16 +40,11 @@ def ingest(
     ] = False,
     source_kind: Annotated[
         SourceKind,
-        typer.Option("--source-kind", help="Transport provenance for standard-input imports."),
+        typer.Option(
+            "--source-kind",
+            help="Transport provenance for standard-input imports (stdin or github).",
+        ),
     ] = SourceKind.STDIN,
-    observed_conversation_id: Annotated[
-        str | None,
-        typer.Option("--observed-conversation-id", help="Conversation ID observed by Chrome."),
-    ] = None,
-    message_id: Annotated[
-        str | None,
-        typer.Option("--message-id", help="Concrete ChatGPT assistant message ID for Chrome."),
-    ] = None,
 ) -> None:
     """Import one exported conversation or pasted assistant response."""
     if (file is None) == (not from_stdin):
@@ -65,16 +60,12 @@ def ingest(
         effective_kind = source_kind
     if len(body.encode("utf-8")) > config.limits.max_source_bytes:
         raise typer.BadParameter("Source input exceeds the configured size limit")
-    if effective_kind is SourceKind.CHROME and not config.source.chrome_enabled:
-        _exit_error("Chrome ingestion is disabled in config.yaml", code="CHROME_DISABLED")
-
     envelope = SourceEnvelope.create(
         source_kind=effective_kind,
         expected_conversation_id=config.source.conversation_id,
-        observed_conversation_id=observed_conversation_id or config.source.conversation_id,
+        observed_conversation_id=config.source.conversation_id,
         body=body,
         captured_at=datetime.now(UTC),
-        message_id=message_id,
     )
     try:
         result = IngestionService(config).ingest(envelope)
