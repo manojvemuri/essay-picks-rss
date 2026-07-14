@@ -42,7 +42,7 @@ def ingest(
         SourceKind,
         typer.Option(
             "--source-kind",
-            help="Transport provenance for standard-input imports (stdin or github).",
+            help="Transport provenance for standard-input imports (stdin, github, or legacy).",
         ),
     ] = SourceKind.STDIN,
 ) -> None:

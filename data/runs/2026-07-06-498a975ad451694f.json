@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "498a975ad451694ff2dcb42c77cd5b31a7e05e8d604bf633d0224e06b418c771",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "legacy",
+  "source_selected_at": "2026-07-06T14:33:00Z",
+  "ingested_at": "2026-07-14T07:30:02.783201Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://example.com/manoj-daily-essay-picks/</link>\n    <description>Normalized from the scheduled ChatGPT response in the supplied export.</description>\n    <language>en-us</language>\n    <lastBuildDate>Mon, 06 Jul 2026 14:33:00 GMT</lastBuildDate>\n    <item>\n      <title>For the First Time, a Cell Built From Scratch Grows and Divides</title>\n      <link>https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/</guid>\n      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Synthetic biologists assembled nonliving components inside a membrane and produced a cell-like system that grew, copied DNA, and divided.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>We Need A Way To Prove Personhood Online</title>\n      <link>https://www.noemamag.com/we-need-a-way-to-prove-personhood-online/</link>\n      <guid isPermaLink=\"true\">https://www.noemamag.com/we-need-a-way-to-prove-personhood-online/</guid>\n      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[AI agents are breaking the old internet assumption that most online actions trace back to an accountable person.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>The war against ‘woke’ could end US science as we know it</title>\n      <link>https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research</link>\n      <guid isPermaLink=\"true\">https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research</guid>\n      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A proposed OMB rule would give political appointees broad authority over research grants, collaborations, conferences, publishing costs, and alignment with presidential priorities.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>Albanians Embrace Their ‘Flamingo Revolution’</title>\n      <link>https://newlinesmag.com/reportage/albanians-embrace-their-flamingo-revolution/</link>\n      <guid isPermaLink=\"true\">https://newlinesmag.com/reportage/albanians-embrace-their-flamingo-revolution/</guid>\n      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Mass protests in Albania are challenging a luxury development project in the Vjosa-Narta Protected Area.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>Searching for the Unexpected</title>\n      <link>https://thepointmag.com/dialogue/searching-for-the-unexpected/</link>\n      <guid isPermaLink=\"true\">https://thepointmag.com/dialogue/searching-for-the-unexpected/</guid>\n      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A conversation with Carlo Ginzburg about microhistory, marginal voices, archives, chance, and intellectual surprise.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "",
+  "raw_sha256": "2147a57420d12713dcc00edd35e3f3425d1f80b85f82a5d493c771c05b1edea8",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
+      "original_url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "canonical_url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "guid": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "published_at": "2026-07-01T00:00:00Z",
+      "description": "Synthetic biologists assembled nonliving components inside a membrane and produced a cell-like system that grew, copied DNA, and divided.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "We Need A Way To Prove Personhood Online",
+      "original_url": "https://www.noemamag.com/we-need-a-way-to-prove-personhood-online/",
+      "canonical_url": "https://www.noemamag.com/we-need-a-way-to-prove-personhood-online/",
+      "guid": "https://www.noemamag.com/we-need-a-way-to-prove-personhood-online/",
+      "published_at": "2026-06-30T00:00:00Z",
+      "description": "AI agents are breaking the old internet assumption that most online actions trace back to an accountable person.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "The war against ‘woke’ could end US science as we know it",
+      "original_url": "https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
+      "canonical_url": "https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
+      "guid": "https://www.theverge.com/science/957630/omb-killing-science-budget-grants-research",
+      "published_at": "2026-06-29T00:00:00Z",
+      "description": "A proposed OMB rule would give political appointees broad authority over research grants, collaborations, conferences, publishing costs, and alignment with presidential priorities.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "Albanians Embrace Their ‘Flamingo Revolution’",
+      "original_url": "https://newlinesmag.com/reportage/albanians-embrace-their-flamingo-revolution/",
+      "canonical_url": "https://newlinesmag.com/reportage/albanians-embrace-their-flamingo-revolution/",
+      "guid": "https://newlinesmag.com/reportage/albanians-embrace-their-flamingo-revolution/",
+      "published_at": "2026-06-24T00:00:00Z",
+      "description": "Mass protests in Albania are challenging a luxury development project in the Vjosa-Narta Protected Area.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "Searching for the Unexpected",
+      "original_url": "https://thepointmag.com/dialogue/searching-for-the-unexpected/",
+      "canonical_url": "https://thepointmag.com/dialogue/searching-for-the-unexpected/",
+      "guid": "https://thepointmag.com/dialogue/searching-for-the-unexpected/",
+      "published_at": "2026-06-29T00:00:00Z",
+      "description": "A conversation with Carlo Ginzburg about microhistory, marginal voices, archives, chance, and intellectual surprise.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    }
+  ]
+}

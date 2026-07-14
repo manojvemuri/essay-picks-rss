@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "67fcd7e46ae8f5beefa47ea247a246c896166f2728716700f4c134c48f657747",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "legacy",
+  "source_selected_at": "2026-07-09T14:45:00Z",
+  "ingested_at": "2026-07-14T07:30:03.547422Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://example.com/manoj-daily-essay-picks/</link>\n    <description>Normalized from the scheduled ChatGPT response in the supplied export.</description>\n    <language>en-us</language>\n    <lastBuildDate>Thu, 09 Jul 2026 14:45:00 GMT</lastBuildDate>\n    <item>\n      <title>Skill nostalgia</title>\n      <link>https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand</link>\n      <guid isPermaLink=\"true\">https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand</guid>\n      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[The longing for manual skills reflects frustration with deskilled work and a desire for complexity, mastery, community, and meaning.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>What Makes Humans Stupid</title>\n      <link>https://nautil.us/what-makes-humans-stupid-1282459</link>\n      <guid isPermaLink=\"true\">https://nautil.us/what-makes-humans-stupid-1282459</guid>\n      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[The most consequential stupidity often requires complex theories, institutions, tools, and algorithms that make wrong answers persuasive.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>Researchers Reveal the Power of ‘Quantum Proofs’</title>\n      <link>https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/</guid>\n      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Some computational problems may require proofs that are themselves quantum states, not ordinary classical documents.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>The People Who Will Thrive in the AI Age</title>\n      <link>https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=2DPnH7-w5PunRuGFjgT5W65-e70SL58v2FEQ4zHE2kI&amp;utm_campaign=share&amp;utm_medium=social&amp;utm_source=copy-link</link>\n      <guid isPermaLink=\"true\">https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=2DPnH7-w5PunRuGFjgT5W65-e70SL58v2FEQ4zHE2kI&amp;utm_campaign=share&amp;utm_medium=social&amp;utm_source=copy-link</guid>\n      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[In an AI-abundant world, the scarce human differentiator may be the willingness to exert mental effort rather than raw intelligence.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n    <item>\n      <title>The Century of Eric Hobsbawm</title>\n      <link>https://www.theideasletter.org/essay/the-century-of-eric-hobsbawm/</link>\n      <guid isPermaLink=\"true\">https://www.theideasletter.org/essay/the-century-of-eric-hobsbawm/</guid>\n      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[An examination of a historian who made the 20th century intelligible for millions while remaining attached to communism.]]></description>\n      <category>Historical Backfill</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "",
+  "raw_sha256": "b1efe6e269adfcf37e949fe295375afec15b418631424eeb62d44c7e7967d5c9",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "Skill nostalgia",
+      "original_url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+      "canonical_url": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+      "guid": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+      "published_at": "2026-07-06T00:00:00Z",
+      "description": "The longing for manual skills reflects frustration with deskilled work and a desire for complexity, mastery, community, and meaning.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "What Makes Humans Stupid",
+      "original_url": "https://nautil.us/what-makes-humans-stupid-1282459",
+      "canonical_url": "https://nautil.us/what-makes-humans-stupid-1282459",
+      "guid": "https://nautil.us/what-makes-humans-stupid-1282459",
+      "published_at": "2026-07-08T00:00:00Z",
+      "description": "The most consequential stupidity often requires complex theories, institutions, tools, and algorithms that make wrong answers persuasive.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "Researchers Reveal the Power of ‘Quantum Proofs’",
+      "original_url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+      "canonical_url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+      "guid": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+      "published_at": "2026-07-06T00:00:00Z",
+      "description": "Some computational problems may require proofs that are themselves quantum states, not ordinary classical documents.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "The People Who Will Thrive in the AI Age",
+      "original_url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=2DPnH7-w5PunRuGFjgT5W65-e70SL58v2FEQ4zHE2kI&utm_campaign=share&utm_medium=social&utm_source=copy-link",
+      "canonical_url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=2DPnH7-w5PunRuGFjgT5W65-e70SL58v2FEQ4zHE2kI",
+      "guid": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/?gift=2DPnH7-w5PunRuGFjgT5W65-e70SL58v2FEQ4zHE2kI&utm_campaign=share&utm_medium=social&utm_source=copy-link",
+      "published_at": "2026-06-28T00:00:00Z",
+      "description": "In an AI-abundant world, the scarce human differentiator may be the willingness to exert mental effort rather than raw intelligence.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "The Century of Eric Hobsbawm",
+      "original_url": "https://www.theideasletter.org/essay/the-century-of-eric-hobsbawm/",
+      "canonical_url": "https://www.theideasletter.org/essay/the-century-of-eric-hobsbawm/",
+      "guid": "https://www.theideasletter.org/essay/the-century-of-eric-hobsbawm/",
+      "published_at": "2026-06-25T00:00:00Z",
+      "description": "An examination of a historian who made the 20th century intelligible for millions while remaining attached to communism.",
+      "categories": [
+        "Historical Backfill"
+      ],
+      "editorial": {}
+    }
+  ]
+}

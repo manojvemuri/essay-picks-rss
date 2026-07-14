@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
 from typer.testing import CliRunner
 
 from essay_picks.cli import app
@@ -62,7 +63,10 @@ def test_cli_rejects_ambiguous_inputs(
     assert ambiguous.exit_code != 0
 
 
-def test_cli_accepts_github_transport(config_path: Path, corrupt_export: str) -> None:
+@pytest.mark.parametrize("source_kind", ["github", "legacy"])
+def test_cli_accepts_hosted_and_legacy_transports(
+    config_path: Path, corrupt_export: str, source_kind: str
+) -> None:
     result = runner.invoke(
         app,
         [
@@ -71,7 +75,7 @@ def test_cli_accepts_github_transport(config_path: Path, corrupt_export: str) ->
             str(config_path),
             "--stdin",
             "--source-kind",
-            "github",
+            source_kind,
         ],
         input=corrupt_export,
     )

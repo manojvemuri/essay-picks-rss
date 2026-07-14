@@ -14,6 +14,7 @@ class FrozenModel(BaseModel):
 class SourceKind(StrEnum):
     EXPORT = "export"
     GITHUB = "github"
+    LEGACY = "legacy"
     STDIN = "stdin"
 
 
