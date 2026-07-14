@@ -19,16 +19,16 @@ jobs:
       github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.0
         with:
           ref: main
-      - uses: astral-sh/setup-uv@v8
+      - uses: astral-sh/setup-uv@v8.3.2
         with:
           enable-cache: true
       - name: Install locked dependencies
         run: uv sync --locked --all-groups
       - name: Copy issue body as inert input
-        uses: actions/github-script@v9
+        uses: actions/github-script@v9.0.0
         with:
           script: |
             const fs = require("fs");
