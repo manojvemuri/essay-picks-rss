@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "98d1b5e0341b4096717fac6b43712a89ac463119a3b2c57539e1ce523a456dad",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "github",
+  "source_selected_at": "2026-07-14T16:00:00Z",
+  "ingested_at": "2026-07-15T03:41:55.187595Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://github.com/manojvemuri/essay-picks-rss/issues/6</link>\n    <description>Five serious articles and essays selected across science, ideas, culture, personal growth, politics, business, strategy, and technology.</description>\n    <language>en-us</language>\n    <lastBuildDate>Tue, 14 Jul 2026 12:00:00 -0400</lastBuildDate>\n\n    <item>\n      <title>We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.</title>\n      <link>https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/</guid>\n      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>\n      <description>A simple nonelastic fluid cracked like a brittle solid, challenging a basic assumption about how liquids fracture.</description>\n      <category>Science</category>\n      <category>Physics</category>\n      <category>Fluid Dynamics</category>\n      <category>Materials Science</category>\n    </item>\n\n    <item>\n      <title>The Stretch of a Soul</title>\n      <link>https://thepointmag.com/criticism/the-stretch-of-a-soul/</link>\n      <guid isPermaLink=\"true\">https://thepointmag.com/criticism/the-stretch-of-a-soul/</guid>\n      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>\n      <description>Biography and philosophy meet in an inquiry into what a human life can reveal beyond intellectual explanation.</description>\n      <category>Culture</category>\n      <category>Philosophy</category>\n      <category>Personal Growth</category>\n      <category>Criticism</category>\n    </item>\n\n    <item>\n      <title>B-Sides: Albert O. Hirschman’s “The Passions and the Interests”</title>\n      <link>https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/</link>\n      <guid isPermaLink=\"true\">https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/</guid>\n      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>\n      <description>Why capitalism was once meant to tame destructive passions—and why prosperity can eventually weaken freedom.</description>\n      <category>Business</category>\n      <category>Strategy</category>\n      <category>Political Economy</category>\n      <category>History of Ideas</category>\n    </item>\n\n    <item>\n      <title>‘It Is Comforting to Be Haunted’: How Attitudes to Abortion Have Changed Through the Ages</title>\n      <link>https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages</link>\n      <guid isPermaLink=\"true\">https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages</guid>\n      <pubDate>Thu, 02 Jul 2026 04:00:00 GMT</pubDate>\n      <description>A personal and historical essay that restores bodily experience and circumstance to abstract arguments about abortion.</description>\n      <category>Politics</category>\n      <category>Society</category>\n      <category>History</category>\n      <category>Reproductive Rights</category>\n    </item>\n\n    <item>\n      <title>Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech</title>\n      <link>https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/</link>\n      <guid isPermaLink=\"true\">https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/</guid>\n      <pubDate>Thu, 02 Jul 2026 10:00:00 GMT</pubDate>\n      <description>A grassroots experiment replaces platform dependence with offline events, analog tools, and community infrastructure.</description>\n      <category>Technology</category>\n      <category>Culture</category>\n      <category>Digital Life</category>\n      <category>Society</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "# Five exceptional recent reads — July 14, 2026\n\n**Selection window:** June 30–July 14, 2026. I favored durable arguments, first-rate explanatory or historical work, and reporting that reveals a larger system—not merely pieces with timely headlines. All five were readable without a hard subscription wall when checked on July 14. WIRED may apply a meter for some readers; if it does, a public-library digital subscription is the cleanest legitimate fallback. No archive workaround is necessary for the other four.\n\n## 1. We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.\n\n- **Author:** Rohini Subrahmanyam  \n- **Publication:** Quanta Magazine  \n- **Date:** July 10, 2026  \n- **Link:** Read at Quanta Magazine\n- **Interests:** Science and ideas; technology\n\n**Core idea:** A nonelastic, apparently simple hydrocarbon fluid can crack like brittle glass under rapid stress. That observation undermines the familiar assumption that elasticity is what allows a fluid to fracture and revives a deeper possibility: fracture may arise from molecular cohesion, cavitation, and loading rate rather than elasticity alone.\n\n**Why it stands out:** This is compact science writing at its best: an audible laboratory surprise leads into a genuine conceptual problem, then outward to unresolved theory and possible applications in fiber spinning, inkjet printing, brain-injury protection, and soft robotics. The result is more than a novelty report. It shows science correcting its categories when nature refuses to respect them.\n\n**Especially useful for:** Readers who enjoy physics without requiring equations; engineers and materials people; anyone who wants a clean example of how anomalies produce better questions.\n\n## 2. The Stretch of a Soul\n\n- **Author:** Todd Shy  \n- **Publication:** The Point  \n- **Date:** July 2, 2026  \n- **Link:** Read at The Point\n- **Interests:** Culture and criticism; personal growth; philosophy\n\n**Core idea:** Reviewing Clare Carlisle’s *Transcendence for Beginners*, Shy asks what a human life can reveal that abstract argument cannot. Biography, encounter, devotion, and attention may enlarge philosophy because our primary relationship to the world is not exhausted by “knowing” it.\n\n**Why it stands out:** This is criticism that becomes an inquiry in its own right. It neither dismisses mystical experience as irrational nor embalms it as a proposition to be inspected. Its durable question is methodological and personal: what forms of understanding become possible when another life moves us before we can explain why?\n\n**Especially useful for:** Readers of philosophy, biography, religion, and contemplative writing; people trying to think more capaciously about meaning without abandoning intellectual discipline.\n\n## 3. B-Sides: Albert O. Hirschman’s “The Passions and the Interests”\n\n- **Author:** Lorraine Daston  \n- **Publication:** Public Books  \n- **Date:** July 4, 2026  \n- **Link:** Read at Public Books\n- **Interests:** Business and strategy; politics and society; history of ideas\n\n**Core idea:** Capitalism was not originally defended simply as the most efficient route to wealth. Early modern thinkers promoted economic self-interest as a comparatively tame passion that might restrain political ambition and religious fanaticism. Hirschman’s darker twist is that commercial comfort can later weaken the desire for freedom.\n\n**Why it stands out:** Daston distills a classic argument with exceptional economy and shows why it remains strategically useful. Markets do not merely allocate resources; they reshape motives and political character. The essay supplies a better lens for evaluating prosperity under illiberal government than the usual “growth versus values” framing.\n\n**Especially useful for:** Executives, investors, policy thinkers, political-economy readers, and strategists interested in the unintended consequences of institutions.\n\n## 4. ‘It Is Comforting to Be Haunted’: How Attitudes to Abortion Have Changed Through the Ages\n\n- **Author:** Erin Maglaque  \n- **Publication:** The Guardian, The Long Read  \n- **Date:** July 2, 2026  \n- **Link:** Read at The Guardian\n- **Interests:** Politics and society; history; personal essay\n\n**Core idea:** Contemporary abortion language—rights, choice, life—often abstracts away the body and the long, uneven history of actual abortions. Maglaque joins her own experience to early-modern records to show that attitudes toward gestation, ensoulment, responsibility, pain, and loss were historically more contingent and complicated than today’s camps imply.\n\n**Why it stands out:** The essay does difficult intellectual and moral work without flattening experience into a slogan. Personal testimony becomes a method of historical attention, while archival detail corrects myths about a single timeless religious or legal position. Its achievement is not false balance; it is restored particularity.\n\n**Especially useful for:** Readers of political and social history, reproductive politics, feminist thought, and anyone seeking a more historically grounded way to think about a polarizing subject.\n\n## 5. Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech\n\n- **Author:** Vittoria Elliott  \n- **Publication:** WIRED  \n- **Date:** July 2, 2026  \n- **Link:** Read at WIRED\n- **Interests:** Technology; culture; politics and society; personal agency\n\n**Core idea:** New York’s Summer of Ludd turns dissatisfaction with platforms into embodied experiments: phone-free events, zines, mending, shortwave radio, community expertise, and infrastructure that does not force social life through Big Tech. The modern Luddite position is less “anti-technology” than pro-autonomy and skeptical of rented infrastructure.\n\n**Why it stands out:** Elliott reports the movement’s earnest fun, contradictions, and limits instead of using it as a quirky trend peg. The strategic insight is concrete: individual digital detox is fragile when everyone else remains on the platform; durable exit requires social alternatives and shared infrastructure.\n\n**Especially useful for:** Product and technology leaders, organizers, parents, educators, and anyone whose attempts to reclaim attention have stalled at personal willpower.\n\n## Recommended reading order\n\n1. **Start with Quanta for wonder:** the cleanest “nature has surprised us” story.\n2. **Read Public Books for strategic insight:** a brief framework with unusually long reach.\n3. **Read The Guardian for political and historical understanding:** the most demanding and consequential selection.\n4. **Read The Point for better thinking:** it loosens the grip of purely discursive understanding.\n5. **Finish with WIRED for practical usefulness:** it translates technological unease into social design.\n\n**Top recommendation: _‘It Is Comforting to Be Haunted’._** It is the most fully realized piece here: historically corrective, personally exposed, morally serious, and resistant to the abstractions that dominate its subject. For the highest idea-to-minute ratio, choose Daston on Hirschman instead.",
+  "raw_sha256": "1f9bbbc160eb9c70a5d18b8f81518e362d34fa93dad4347596eb5c0c48ac406b",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+      "original_url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "canonical_url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "guid": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "published_at": "2026-07-10T00:00:00Z",
+      "description": "A simple nonelastic fluid cracked like a brittle solid, challenging a basic assumption about how liquids fracture.",
+      "categories": [
+        "Science",
+        "Physics",
+        "Fluid Dynamics",
+        "Materials Science"
+      ],
+      "editorial": {
+        "core_idea": "A nonelastic, apparently simple hydrocarbon fluid can crack like brittle glass under rapid stress. That observation undermines the familiar assumption that elasticity is what allows a fluid to fracture and revives a deeper possibility: fracture may arise from molecular cohesion, cavitation, and loading rate rather than elasticity alone.",
+        "why_it_stands_out": "This is compact science writing at its best: an audible laboratory surprise leads into a genuine conceptual problem, then outward to unresolved theory and possible applications in fiber spinning, inkjet printing, brain-injury protection, and soft robotics. The result is more than a novelty report. It shows science correcting its categories when nature refuses to respect them."
+      }
+    },
+    {
+      "source_order": 2,
+      "title": "The Stretch of a Soul",
+      "original_url": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "canonical_url": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "guid": "https://thepointmag.com/criticism/the-stretch-of-a-soul/",
+      "published_at": "2026-07-02T00:00:00Z",
+      "description": "Biography and philosophy meet in an inquiry into what a human life can reveal beyond intellectual explanation.",
+      "categories": [
+        "Culture",
+        "Philosophy",
+        "Personal Growth",
+        "Criticism"
+      ],
+      "editorial": {
+        "core_idea": "Reviewing Clare Carlisle’s *Transcendence for Beginners*, Shy asks what a human life can reveal that abstract argument cannot. Biography, encounter, devotion, and attention may enlarge philosophy because our primary relationship to the world is not exhausted by “knowing” it.",
+        "why_it_stands_out": "This is criticism that becomes an inquiry in its own right. It neither dismisses mystical experience as irrational nor embalms it as a proposition to be inspected. Its durable question is methodological and personal: what forms of understanding become possible when another life moves us before we can explain why?"
+      }
+    },
+    {
+      "source_order": 3,
+      "title": "B-Sides: Albert O. Hirschman’s “The Passions and the Interests”",
+      "original_url": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "canonical_url": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "guid": "https://www.publicbooks.org/albert-o-hirschmans-the-passions-and-the-interests/",
+      "published_at": "2026-07-04T00:00:00Z",
+      "description": "Why capitalism was once meant to tame destructive passions—and why prosperity can eventually weaken freedom.",
+      "categories": [
+        "Business",
+        "Strategy",
+        "Political Economy",
+        "History of Ideas"
+      ],
+      "editorial": {
+        "core_idea": "Capitalism was not originally defended simply as the most efficient route to wealth. Early modern thinkers promoted economic self-interest as a comparatively tame passion that might restrain political ambition and religious fanaticism. Hirschman’s darker twist is that commercial comfort can later weaken the desire for freedom.",
+        "why_it_stands_out": "Daston distills a classic argument with exceptional economy and shows why it remains strategically useful. Markets do not merely allocate resources; they reshape motives and political character. The essay supplies a better lens for evaluating prosperity under illiberal government than the usual “growth versus values” framing."
+      }
+    },
+    {
+      "source_order": 4,
+      "title": "‘It Is Comforting to Be Haunted’: How Attitudes to Abortion Have Changed Through the Ages",
+      "original_url": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "canonical_url": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "guid": "https://www.theguardian.com/news/2026/jul/02/it-is-comforting-to-be-haunted-how-attitudes-to-abortion-have-changed-through-the-ages",
+      "published_at": "2026-07-02T04:00:00Z",
+      "description": "A personal and historical essay that restores bodily experience and circumstance to abstract arguments about abortion.",
+      "categories": [
+        "Politics",
+        "Society",
+        "History",
+        "Reproductive Rights"
+      ],
+      "editorial": {
+        "core_idea": "Contemporary abortion language—rights, choice, life—often abstracts away the body and the long, uneven history of actual abortions. Maglaque joins her own experience to early-modern records to show that attitudes toward gestation, ensoulment, responsibility, pain, and loss were historically more contingent and complicated than today’s camps imply.",
+        "why_it_stands_out": "The essay does difficult intellectual and moral work without flattening experience into a slogan. Personal testimony becomes a method of historical attention, while archival detail corrects myths about a single timeless religious or legal position. Its achievement is not false balance; it is restored particularity."
+      }
+    },
+    {
+      "source_order": 5,
+      "title": "Inside the Luddite Festival Harnessing Gen Z’s Rage Against Big Tech",
+      "original_url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "canonical_url": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "guid": "https://www.wired.com/story/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+      "published_at": "2026-07-02T10:00:00Z",
+      "description": "A grassroots experiment replaces platform dependence with offline events, analog tools, and community infrastructure.",
+      "categories": [
+        "Technology",
+        "Culture",
+        "Digital Life",
+        "Society"
+      ],
+      "editorial": {
+        "core_idea": "New York’s Summer of Ludd turns dissatisfaction with platforms into embodied experiments: phone-free events, zines, mending, shortwave radio, community expertise, and infrastructure that does not force social life through Big Tech. The modern Luddite position is less “anti-technology” than pro-autonomy and skeptical of rented infrastructure.",
+        "why_it_stands_out": "Elliott reports the movement’s earnest fun, contradictions, and limits instead of using it as a quirky trend peg. The strategic insight is concrete: individual digital detox is fragile when everyone else remains on the platform; durable exit requires social alternatives and shared infrastructure."
+      }
+    }
+  ]
+}
