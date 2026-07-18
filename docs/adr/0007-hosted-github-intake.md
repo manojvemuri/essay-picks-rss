@@ -16,7 +16,9 @@ Use one fixed repository-owner GitHub issue as the cloud handoff. The scheduled 
 issue 6 with its completed response. An `issues.edited` GitHub Actions workflow copies the body as
 inert data, imports it with `source_kind=github`, validates all immutable history, and commits only
 managed run records and deterministic public projections. Serialize intake jobs and replay once from
-the latest main branch after a non-fast-forward push.
+the latest main branch after a non-fast-forward push. Explicitly dispatch the validation and Pages
+workflow after every valid intake because pushes made with `GITHUB_TOKEN` do not start another
+workflow automatically.
 
 Keep file and stdin imports permanently supported. Remove Chrome as a production source adapter.
 

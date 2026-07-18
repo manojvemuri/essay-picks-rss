@@ -5,6 +5,7 @@ on:
     types: [edited]
 
 permissions:
+  actions: write
   contents: write
   issues: read
 
@@ -71,3 +72,7 @@ jobs:
           fi
           git commit -m "chore: publish daily essay picks"
           git push origin HEAD:main
+      - name: Dispatch validation and Pages deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci-pages.yml --ref main
