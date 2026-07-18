@@ -23,7 +23,7 @@ essay-picks = "essay_picks.cli:app"
 [dependency-groups]
 dev = [
   "hypothesis>=6.130",
-  "mypy>=1.15",
+  "mypy>=2.3.0",
   "pip-audit>=2.9",
   "pytest>=8.3",
   "pytest-cov>=6.1",
