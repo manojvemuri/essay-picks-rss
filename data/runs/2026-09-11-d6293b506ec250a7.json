@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "d6293b506ec250a758f3ee345e0f92c6ee6ad7d4e4705aa4b372866af0a94dcd",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "github",
+  "source_selected_at": "2026-09-11T14:14:07Z",
+  "ingested_at": "2026-09-12T14:50:05.113050Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://github.com/manojvemuri/essay-picks-rss/issues/6</link>\n    <description>Five serious articles and essays selected across science, ideas, culture, personal growth, politics, business, strategy, and technology.</description>\n    <language>en-us</language>\n    <lastBuildDate>Fri, 11 Sep 2026 14:14:07 GMT</lastBuildDate>\n\n    <item>\n      <title>The Four-Color Theorem Gets a Rare New Proof</title>\n      <link>https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/</guid>\n      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A new proof of the famous four-color theorem reveals faster algorithms and previously hidden structure in planar graphs.]]></description>\n      <category>Science and Ideas</category>\n      <category>Mathematics</category>\n      <category>Graph Theory</category>\n      <category>Computer Science</category>\n      <category>Better Thinking</category>\n    </item>\n\n    <item>\n      <title>Medieval mental health</title>\n      <link>https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health</link>\n      <guid isPermaLink=\"true\">https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health</guid>\n      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Medieval approaches to anxiety, melancholy and burnout were stranger than ours, yet their emphasis on sleep, companionship, exercise and pleasure feels remarkably familiar.]]></description>\n      <category>Culture and Criticism</category>\n      <category>Personal Growth</category>\n      <category>Mental Health</category>\n      <category>History</category>\n      <category>Medicine</category>\n    </item>\n\n    <item>\n      <title>Your Boss Is Watching You</title>\n      <link>https://nautil.us/your-boss-is-watching-you-1284806</link>\n      <guid isPermaLink=\"true\">https://nautil.us/your-boss-is-watching-you-1284806</guid>\n      <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>\n      <description><![CDATA[Workplace surveillance is becoming cheap and ubiquitous, but research suggests that monitoring alone rarely improves performance and often undermines trust.]]></description>\n      <category>Business and Strategy</category>\n      <category>Technology</category>\n      <category>Management</category>\n      <category>Workplace</category>\n      <category>Surveillance</category>\n    </item>\n\n    <item>\n      <title>Just bury your trash</title>\n      <link>https://worksinprogress.co/issue/just-bury-your-trash/</link>\n      <guid isPermaLink=\"true\">https://worksinprogress.co/issue/just-bury-your-trash/</guid>\n      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A provocative, evidence-heavy case for judging recycling material by material rather than assuming it is always greener than modern landfill.]]></description>\n      <category>Ideas</category>\n      <category>Environment</category>\n      <category>Public Policy</category>\n      <category>Waste</category>\n      <category>Systems Thinking</category>\n    </item>\n\n    <item>\n      <title>How to Blow Up a Family</title>\n      <link>https://www.bostonreview.net/articles/how-to-blow-up-a-family/</link>\n      <guid isPermaLink=\"true\">https://www.bostonreview.net/articles/how-to-blow-up-a-family/</guid>\n      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A Russian-speaking Ukrainian teenager's resistance story reveals how occupation, propaganda and war can split political identity even within a family.]]></description>\n      <category>Politics and Society</category>\n      <category>Ukraine</category>\n      <category>Russia</category>\n      <category>Identity</category>\n      <category>War</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "# Five exceptional recent reads — September 11, 2026\n\nBackfill publishable issue body for the missed ChatGPT scheduled-task run.",
+  "raw_sha256": "f54e36725112331292cbc5d5baf395085695fb9a5efabf6551361ed4bb2f9cc9",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "The Four-Color Theorem Gets a Rare New Proof",
+      "original_url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "canonical_url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "guid": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "published_at": "2026-09-10T00:00:00Z",
+      "description": "A new proof of the famous four-color theorem reveals faster algorithms and previously hidden structure in planar graphs.",
+      "categories": [
+        "Science and Ideas",
+        "Mathematics",
+        "Graph Theory",
+        "Computer Science",
+        "Better Thinking"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "Medieval mental health",
+      "original_url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "canonical_url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "guid": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "published_at": "2026-09-10T00:00:00Z",
+      "description": "Medieval approaches to anxiety, melancholy and burnout were stranger than ours, yet their emphasis on sleep, companionship, exercise and pleasure feels remarkably familiar.",
+      "categories": [
+        "Culture and Criticism",
+        "Personal Growth",
+        "Mental Health",
+        "History",
+        "Medicine"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "Your Boss Is Watching You",
+      "original_url": "https://nautil.us/your-boss-is-watching-you-1284806",
+      "canonical_url": "https://nautil.us/your-boss-is-watching-you-1284806",
+      "guid": "https://nautil.us/your-boss-is-watching-you-1284806",
+      "published_at": "2026-09-05T12:00:00Z",
+      "description": "Workplace surveillance is becoming cheap and ubiquitous, but research suggests that monitoring alone rarely improves performance and often undermines trust.",
+      "categories": [
+        "Business and Strategy",
+        "Technology",
+        "Management",
+        "Workplace",
+        "Surveillance"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "Just bury your trash",
+      "original_url": "https://worksinprogress.co/issue/just-bury-your-trash/",
+      "canonical_url": "https://worksinprogress.co/issue/just-bury-your-trash/",
+      "guid": "https://worksinprogress.co/issue/just-bury-your-trash/",
+      "published_at": "2026-09-01T00:00:00Z",
+      "description": "A provocative, evidence-heavy case for judging recycling material by material rather than assuming it is always greener than modern landfill.",
+      "categories": [
+        "Ideas",
+        "Environment",
+        "Public Policy",
+        "Waste",
+        "Systems Thinking"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "How to Blow Up a Family",
+      "original_url": "https://www.bostonreview.net/articles/how-to-blow-up-a-family/",
+      "canonical_url": "https://www.bostonreview.net/articles/how-to-blow-up-a-family/",
+      "guid": "https://www.bostonreview.net/articles/how-to-blow-up-a-family/",
+      "published_at": "2026-09-01T00:00:00Z",
+      "description": "A Russian-speaking Ukrainian teenager's resistance story reveals how occupation, propaganda and war can split political identity even within a family.",
+      "categories": [
+        "Politics and Society",
+        "Ukraine",
+        "Russia",
+        "Identity",
+        "War"
+      ],
+      "editorial": {}
+    }
+  ]
+}
