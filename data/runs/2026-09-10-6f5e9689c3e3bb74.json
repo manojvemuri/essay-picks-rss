@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "canonicalization_version": 1,
+  "batch_id": "6f5e9689c3e3bb74f8ec74c9edb36ad6ce033e85654e7ca6fc3666cf2e665b04",
+  "conversation_id": "6a4b19df-f410-83ea-a29d-49673df84cb6",
+  "source_kind": "github",
+  "source_selected_at": "2026-09-10T14:12:34Z",
+  "ingested_at": "2026-09-12T14:49:39.643015Z",
+  "original_rss_xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n  <channel>\n    <title>Manoj's Daily Essay Picks</title>\n    <link>https://github.com/manojvemuri/essay-picks-rss/issues/6</link>\n    <description>Five serious articles and essays selected across science, ideas, culture, personal growth, politics, business, strategy, and technology.</description>\n    <language>en-us</language>\n    <lastBuildDate>Thu, 10 Sep 2026 14:12:34 GMT</lastBuildDate>\n\n    <item>\n      <title>What Is Math’s Mysterious Langlands Program Really About?</title>\n      <link>https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/</link>\n      <guid isPermaLink=\"true\">https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/</guid>\n      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A lucid exploration of the Langlands program and the mysterious correspondences suggesting that distant regions of mathematics may be shadows of a deeper structure.]]></description>\n      <category>Science and Ideas</category>\n      <category>Mathematics</category>\n      <category>Langlands Program</category>\n      <category>Mathematical Physics</category>\n      <category>Better Thinking</category>\n    </item>\n\n    <item>\n      <title>‘A completely unique opportunity’: the secretive process that will decide the BBC’s future</title>\n      <link>https://www.theguardian.com/news/2026/sep/10/bbc-charter-renewal-long-read-secretive-process-that-will-decide-future</link>\n      <guid isPermaLink=\"true\">https://www.theguardian.com/news/2026/sep/10/bbc-charter-renewal-long-read-secretive-process-that-will-decide-future</guid>\n      <pubDate>Thu, 10 Sep 2026 04:00:00 GMT</pubDate>\n      <description><![CDATA[Inside the once-a-decade negotiation over the BBC’s funding, governance and purpose as public media confronts streaming, algorithms and declining audiences.]]></description>\n      <category>Culture and Criticism</category>\n      <category>Media</category>\n      <category>Business Strategy</category>\n      <category>Institutions</category>\n      <category>Technology</category>\n    </item>\n\n    <item>\n      <title>Now it’s China’s experts who are gig workers training AI</title>\n      <link>https://restofworld.org/2026/china-expert-ai-trainers/</link>\n      <guid isPermaLink=\"true\">https://restofworld.org/2026/china-expert-ai-trainers/</guid>\n      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Chinese lawyers, architects and engineers are selling their professional judgment as training data, revealing a new layer of white-collar gig work around AI.]]></description>\n      <category>Technology</category>\n      <category>Artificial Intelligence</category>\n      <category>Business Strategy</category>\n      <category>Labor</category>\n      <category>China</category>\n    </item>\n\n    <item>\n      <title>Why you should try living without free will for two weeks</title>\n      <link>https://psyche.co/ideas/why-you-should-try-living-without-free-will-for-two-weeks</link>\n      <guid isPermaLink=\"true\">https://psyche.co/ideas/why-you-should-try-living-without-free-will-for-two-weeks</guid>\n      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[A provocative two-week experiment: replace reflexive blame with causal questions about the biological, social and environmental conditions behind behavior.]]></description>\n      <category>Personal Growth</category>\n      <category>Psychology</category>\n      <category>Philosophy</category>\n      <category>Decision-Making</category>\n      <category>Human Nature</category>\n    </item>\n\n    <item>\n      <title>The Buried Treasure Left Behind by the Islamic State</title>\n      <link>https://newlinesmag.com/reportage/the-buried-treasure-left-behind-by-the-islamic-state/</link>\n      <guid isPermaLink=\"true\">https://newlinesmag.com/reportage/the-buried-treasure-left-behind-by-the-islamic-state/</guid>\n      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>\n      <description><![CDATA[Internal records reveal how the Islamic State dispersed cash and gold into a hidden financial network designed to survive territorial collapse.]]></description>\n      <category>Politics and Society</category>\n      <category>Geopolitics</category>\n      <category>Security</category>\n      <category>Organizational Strategy</category>\n      <category>Middle East</category>\n    </item>\n  </channel>\n</rss>",
+  "editorial_markdown": "# Five exceptional recent reads — September 10, 2026\n\nBackfill publishable issue body for the missed ChatGPT scheduled-task run.",
+  "raw_sha256": "c4d59443cd0cb9f3362ee721c228d0fbc8b1a5942936002527538253fc7c36a2",
+  "items": [
+    {
+      "source_order": 1,
+      "title": "What Is Math’s Mysterious Langlands Program Really About?",
+      "original_url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "canonical_url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "guid": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "published_at": "2026-09-09T00:00:00Z",
+      "description": "A lucid exploration of the Langlands program and the mysterious correspondences suggesting that distant regions of mathematics may be shadows of a deeper structure.",
+      "categories": [
+        "Science and Ideas",
+        "Mathematics",
+        "Langlands Program",
+        "Mathematical Physics",
+        "Better Thinking"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 2,
+      "title": "‘A completely unique opportunity’: the secretive process that will decide the BBC’s future",
+      "original_url": "https://www.theguardian.com/news/2026/sep/10/bbc-charter-renewal-long-read-secretive-process-that-will-decide-future",
+      "canonical_url": "https://www.theguardian.com/news/2026/sep/10/bbc-charter-renewal-long-read-secretive-process-that-will-decide-future",
+      "guid": "https://www.theguardian.com/news/2026/sep/10/bbc-charter-renewal-long-read-secretive-process-that-will-decide-future",
+      "published_at": "2026-09-10T04:00:00Z",
+      "description": "Inside the once-a-decade negotiation over the BBC’s funding, governance and purpose as public media confronts streaming, algorithms and declining audiences.",
+      "categories": [
+        "Culture and Criticism",
+        "Media",
+        "Business Strategy",
+        "Institutions",
+        "Technology"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 3,
+      "title": "Now it’s China’s experts who are gig workers training AI",
+      "original_url": "https://restofworld.org/2026/china-expert-ai-trainers/",
+      "canonical_url": "https://restofworld.org/2026/china-expert-ai-trainers/",
+      "guid": "https://restofworld.org/2026/china-expert-ai-trainers/",
+      "published_at": "2026-09-09T00:00:00Z",
+      "description": "Chinese lawyers, architects and engineers are selling their professional judgment as training data, revealing a new layer of white-collar gig work around AI.",
+      "categories": [
+        "Technology",
+        "Artificial Intelligence",
+        "Business Strategy",
+        "Labor",
+        "China"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 4,
+      "title": "Why you should try living without free will for two weeks",
+      "original_url": "https://psyche.co/ideas/why-you-should-try-living-without-free-will-for-two-weeks",
+      "canonical_url": "https://psyche.co/ideas/why-you-should-try-living-without-free-will-for-two-weeks",
+      "guid": "https://psyche.co/ideas/why-you-should-try-living-without-free-will-for-two-weeks",
+      "published_at": "2026-09-03T00:00:00Z",
+      "description": "A provocative two-week experiment: replace reflexive blame with causal questions about the biological, social and environmental conditions behind behavior.",
+      "categories": [
+        "Personal Growth",
+        "Psychology",
+        "Philosophy",
+        "Decision-Making",
+        "Human Nature"
+      ],
+      "editorial": {}
+    },
+    {
+      "source_order": 5,
+      "title": "The Buried Treasure Left Behind by the Islamic State",
+      "original_url": "https://newlinesmag.com/reportage/the-buried-treasure-left-behind-by-the-islamic-state/",
+      "canonical_url": "https://newlinesmag.com/reportage/the-buried-treasure-left-behind-by-the-islamic-state/",
+      "guid": "https://newlinesmag.com/reportage/the-buried-treasure-left-behind-by-the-islamic-state/",
+      "published_at": "2026-08-31T00:00:00Z",
+      "description": "Internal records reveal how the Islamic State dispersed cash and gold into a hidden financial network designed to survive territorial collapse.",
+      "categories": [
+        "Politics and Society",
+        "Geopolitics",
+        "Security",
+        "Organizational Strategy",
+        "Middle East"
+      ],
+      "editorial": {}
+    }
+  ]
+}
